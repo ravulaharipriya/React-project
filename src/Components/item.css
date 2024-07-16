@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+.item{
+  background-color: rgb(45, 45, 45);
+  padding-bottom: 40px;
+   width:25vw;margin-bottom: 80px;
+   
+  
+}
+img{
+    width: 25vw;
+    height: 200px;
+    align-items: center;
+    text-align: center;
+   
+}
+
+.item:hover{
+    transform: scale(1.05);
+    transition: 0.6s;
+}

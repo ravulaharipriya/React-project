@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.pc{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 30px;
+    margin:30px 50px;
+    
+  }
+  .discription{
+    background-color: black;
+    padding: 40px 20px;
+   
+  }
+  .discription h1{
+    color: rgb(31, 197, 31);
+    text-align: center;
+  }
+  .discription p{
+    color: gray;
+    font-size: 15px;
+    text-align: center;
+  }
+  .pc-laptop{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 15px;
+    margin:30px 50px;
+    
+  }
